@@ -6,7 +6,10 @@ package perpustakaan;
 
 import java.sql.*;
 import javax.swing.*;
-
+/**
+ *
+ * @author GaryFaldi
+ */
 public class ViewOutput {
     Connector connector = new Connector();
     
@@ -16,7 +19,6 @@ public class ViewOutput {
     JTable tabel;
     JScrollPane scrollPane;
     
-    //membuat kolom
     Object namaKolom[] = {"ID","JUDUL","GENRE","PENULIS","PENERBIT","LOKASI","STOCK"};
     public ViewOutput(){
         window.setLayout(null);
